@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>kFlix-tv/renovate-config//packageRules/allowedVersions",
+    "github>kFlix-tv/renovate-config//packageRules/autoMerge",
+    "github>kFlix-tv/renovate-config//packageRules/commitMessages",
+    "github>kFlix-tv/renovate-config//packageRules/versioning",
+    "github>kFlix-tv/renovate-config//packageRules/groups",
+    "github>kFlix-tv/renovate-config//packageRules/labels"
+  ]
+}

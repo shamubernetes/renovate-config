@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [":semanticCommits"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "semanticCommitType": "⏫",
+      "commitMessagePrefix": "{{semanticCommitType}}({{semanticCommitScope}})!:",
+      "commitMessageExtra": "( {{currentVersion}} → {{newVersion}} )",
+      "commitMessageAction": ""
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "semanticCommitType": "⏫",
+      "commitMessageExtra": "( {{currentVersion}} → {{newVersion}} )",
+      "commitMessageAction": ""
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "semanticCommitType": "⬆",
+      "commitMessageExtra": "( {{currentVersion}} → {{newVersion}} )",
+      "commitMessageAction": ""
+    },
+    {
+      "matchUpdateTypes": ["digest"],
+      "semanticCommitType": "🔄",
+      "commitMessageExtra": "( {{currentDigestShort}} → {{newDigestShort}} )",
+      "commitMessageAction": ""
+    }
+  ]
+}

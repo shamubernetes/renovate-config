@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: "3"
+
+vars:
+  # Directories
+  PRIVATE_DIR: "{{.ROOT_DIR}}/.private"
+  SCRIPTS_DIR: "{{.ROOT_DIR}}/scripts"
+  # Files
+  PIP_REQUIREMENTS_FILE: "{{.ROOT_DIR}}/requirements.txt"
+  # Binaries
+  PYTHON_BIN: python3
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  VIRTUAL_ENV: "{{.ROOT_DIR}}/.venv"
+
+includes:
+  workstation: .taskfiles/Workstation/Taskfile.yaml
+  precommit:
+    aliases: ["pc"]
+    taskfile: .taskfiles/Precommit/Taskfile.yaml
+  user:
+    taskfile: .taskfiles/User
+    optional: true
+
+tasks:
+  default: task -l

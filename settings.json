@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>kFlix-tv/renovate-config//settings/automerge.json5",
+    "github>kFlix-tv/renovate-config//settings/base.json5",
+    "github>kFlix-tv/renovate-config//settings/dependencyDashboard.json5",
+    "github>kFlix-tv/renovate-config//settings/ignorePaths.json5",
+    "github>kFlix-tv/renovate-config//settings/schedule.json5",
+    "github>kFlix-tv/renovate-config//settings/strategies.json5"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "[shellscript]": {
+    "editor.defaultFormatter": "trunk.io",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoIndent": "keep",
+    "editor.defaultFormatter": "trunk.io",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.json5": "json5",
+    "./ansible/**/*.sops.yaml": "yaml",
+    "./ansible/**/*.yaml": "ansible",
+    "./ansible/**/inventory/**/*.yaml": "yaml",
+    "./kubernetes/**/*.sops.toml": "plaintext"
+  },
+  "files.trimTrailingWhitespace": true,
+  "material-icon-theme.folders.associations": {
+    ".taskfiles": "utils",
+    "bootstrap": "import",
+    "cert-manager": "guard",
+    "charts": "kubernetes",
+    "external-secrets": "keys",
+    "hack": "scripts",
+    "kube-system": "kubernetes",
+    "monitoring": "event",
+    "networking": "connection",
+    "repositories": "database",
+    "rook-ceph": "dump",
+    "terraforms": "terraform",
+    "vars": "other"
+  },
+  "sops.defaults.ageKeyFile": "age.key",
+  "sops.configPath": ".sops.yaml",
+  "vs-kubernetes": {
+    "vs-kubernetes.knownKubeconfigs": [
+      "./kubeconfig"
+    ],
+    "vs-kubernetes.kubeconfig": "./kubeconfig"
+  },
+  "yaml.schemas": {
+    "ansible": "./ansible/*.yaml",
+    "Kubernetes": "./kubernetes/*.yaml"
+  },
+  "yaml.customTags": [
+    "!secret scalar",
+    "!env_var scalar"
+  ],
+  "yaml.schemaStore.enable": true
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Auto merge reloader minors and patches",
+      "matchDatasources": ["helm", "docker"],
+      "automerge": true,
+      "matchUpdateTypes": ["patch"],
+      "matchDepNames": ["reloader"],
+      "ignoreTests": false,
+    },
+  ],
+}

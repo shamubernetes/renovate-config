@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>kFlix-tv/renovate-config//fileMatch/flux.json5",
+    "github>kFlix-tv/renovate-config//fileMatch/helm.json5",
+    "github>kFlix-tv/renovate-config//fileMatch/kubernetes.json5",
+    "github>kFlix-tv/renovate-config//fileMatch/kustomize.json5",
+    "github>kFlix-tv/renovate-config//fileMatch/pip.json5"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>kflix-tv/renovate-config//packageRules/commitMessages/semanticCommits.json5",
+    "github>kflix-tv/renovate-config//packageRules/commitMessages/docker.json5",
+    "github>kflix-tv/renovate-config//packageRules/commitMessages/githubActions.json5",
+    "github>kflix-tv/renovate-config//packageRules/commitMessages/grafanaDashboards.json5",
+    "github>kflix-tv/renovate-config//packageRules/commitMessages/helm.json5",
+    "github>kflix-tv/renovate-config//packageRules/commitMessages/pypi.json5"
+  ]
+}

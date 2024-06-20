@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "updateNotScheduled": true,
+  "schedule": [
+    "after 8am",
+    "before 11pm"
+  ],
+  "automergeSchedule": [
+    "at any time"
+  ],
+}

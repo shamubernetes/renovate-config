@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":timezone(America/New_York)",
+    "config:recommended",
+    "group:monorepos",
+    "group:recommended",
+    "replacements:all",
+    "workarounds:all",
+    ":disableRateLimiting",
+    "docker:enableMajor",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+  ],
+  "enabled": true,
+  "configMigration": true,
+  "onboarding": false,
+  "requireConfig": "ignored"
+}

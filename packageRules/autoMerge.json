@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>kflix-tv/renovate-config//packageRules/autoMerge/docker.json5",
+    "github>kflix-tv/renovate-config//packageRules/autoMerge/githubActions.json5",
+    "github>kflix-tv/renovate-config//packageRules/autoMerge/kubePrometheusStack.json5",
+    "github>kflix-tv/renovate-config//packageRules/autoMerge/preCommit.json5",
+    "github>kflix-tv/renovate-config//packageRules/autoMerge/reloader.json5"
+  ]
+}

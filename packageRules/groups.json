@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>kFlix-tv/renovate-config//packageRules/groups/actionsRunner.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/cilium.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/dragonfly.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/flux.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/intelDevicePlugins.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/rookCeph.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/systemUpgradeController.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/talos.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/thanos.json5",
+    "github>kFlix-tv/renovate-config//packageRules/groups/vector.json5"
+  ]
+}
