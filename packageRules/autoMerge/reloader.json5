@@ -6,6 +6,8 @@
       "matchDatasources": ["helm", "docker"],
       "automerge": true,
       "matchUpdateTypes": ["patch"],
+      "assigneesFromCodeOwners": false,
+      "automergeType": "pr",
       "matchDepNames": ["reloader"],
       "ignoreTests": false,
     },

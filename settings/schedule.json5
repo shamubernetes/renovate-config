@@ -6,6 +6,7 @@
     "before 11pm"
   ],
   "automergeSchedule": [
-    "at any time"
+    "after 8am",
+    "before 11pm"
   ],
 }
