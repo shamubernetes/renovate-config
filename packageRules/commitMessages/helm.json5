@@ -3,7 +3,8 @@
   "packageRules": [
     {
       "matchDatasources": ["helm"],
-      "semanticCommitScope": "helm"
+      "semanticCommitScope": "helm",
+      "commitMessageTopic": "chart {{depName}}"
     }
   ]
 }
