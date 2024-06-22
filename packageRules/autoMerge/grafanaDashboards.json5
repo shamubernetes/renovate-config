@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["custom.grafana-dashboards"],
+      "automerge": true,
+      "automergeType": "pr",
+      "assigneesFromCodeOwners": false,
+      "ignoreTests": true
+    },
+  ],
+}

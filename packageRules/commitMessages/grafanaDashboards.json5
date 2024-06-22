@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "addLabels": ["renovate/grafana-dashboard"],
+      "addLabels": ["renovate/dash"],
       "matchDatasources": ["custom.grafana-dashboards"],
       "matchUpdateTypes": ["major"],
       "semanticCommitType": "🔄",
