@@ -6,6 +6,7 @@
       "automerge": true,
       "automergeType": "pr",
       "assigneesFromCodeOwners": false,
+      "matchUpdateTypes": ["major"],
       "ignoreTests": true
     },
   ],
