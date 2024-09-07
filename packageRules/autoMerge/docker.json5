@@ -10,5 +10,14 @@
       "matchUpdateTypes": ["patch", "digest"],
       "matchPackagePatterns": ["ghcr.io/bjw-s", "ghcr.io/onedr0p", "ghcr.io/shamubernetes", "ghcr.io/tautulli/tautulli"],
     },
+    {
+      "description": ["Auto-merge container minor updates for trusted containers"],
+      "matchDatasources": ["docker"],
+      "automerge": true,
+      "automergeType": "pr",
+      "assigneesFromCodeOwners": false,
+      "matchUpdateTypes": ["minor"],
+      "matchPackagePatterns": ["ghcr.io/shamubernetes"],
+    },
   ],
 }
