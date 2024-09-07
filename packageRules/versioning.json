@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>kFlix-tv/renovate-config//packageRules/versioning/echoServer.json5",
-    "github>kFlix-tv/renovate-config//packageRules/versioning/plex.json5"
+    "github>shamubernetes/renovate-config//packageRules/versioning/echoServer.json5",
+    "github>shamubernetes/renovate-config//packageRules/versioning/plex.json5"
   ]
 }

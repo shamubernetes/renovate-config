@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>kFlix-tv/renovate-config//customDatasources/grafanaDashboards.json5"
+    "github>shamubernetes/renovate-config//customDatasources/grafanaDashboards.json5"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>kFlix-tv/renovate-config//customManagers/cloudNativePG.json5",
-    "github>kFlix-tv/renovate-config//customManagers/customDeps.json5",
-    "github>kFlix-tv/renovate-config//customManagers/githubActions.json5",
-    "github>kFlix-tv/renovate-config//customManagers/grafanaDashboards.json5",
-    "github>kFlix-tv/renovate-config//customManagers/helmChartAppVersion.json5"
+    "github>shamubernetes/renovate-config//customManagers/cloudNativePG.json5",
+    "github>shamubernetes/renovate-config//customManagers/customDeps.json5",
+    "github>shamubernetes/renovate-config//customManagers/githubActions.json5",
+    "github>shamubernetes/renovate-config//customManagers/grafanaDashboards.json5",
+    "github>shamubernetes/renovate-config//customManagers/helmChartAppVersion.json5"
   ]
 }

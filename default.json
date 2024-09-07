@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>kflix-tv/renovate-config//settings",
-    "github>kflix-tv/renovate-config//packageRules",
-    "github>kflix-tv/renovate-config//customManagers",
-    "github>kflix-tv/renovate-config//customDatasources",
-    "github>kflix-tv/renovate-config//fileMatch"
+    "github>shamubernetes/renovate-config//settings",
+    "github>shamubernetes/renovate-config//packageRules",
+    "github>shamubernetes/renovate-config//customManagers",
+    "github>shamubernetes/renovate-config//customDatasources",
+    "github>shamubernetes/renovate-config//fileMatch"
   ]
 }
