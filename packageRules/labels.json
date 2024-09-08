@@ -1,7 +1,0 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "github>shamubernetes/renovate-config//packageRules/labels/renovateLabels.json5",
-    "github>shamubernetes/renovate-config//packageRules/labels/type.json5"
-  ]
-}

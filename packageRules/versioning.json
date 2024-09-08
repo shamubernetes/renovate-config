@@ -1,7 +1,0 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "github>shamubernetes/renovate-config//packageRules/versioning/echoServer.json5",
-    "github>shamubernetes/renovate-config//packageRules/versioning/plex.json5"
-  ]
-}

@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>shamubernetes/renovate-config//settings",
-    "github>shamubernetes/renovate-config//packageRules",
-    "github>shamubernetes/renovate-config//customManagers",
-    "github>shamubernetes/renovate-config//customDatasources",
-    "github>shamubernetes/renovate-config//fileMatch"
+    "github>shamubernetes/renovate-config//settings.json5",
+    "github>shamubernetes/renovate-config//packageRules.json5",
+    "github>shamubernetes/renovate-config//customManagers.json5",
+    "github>shamubernetes/renovate-config//customDatasources.json5",
+    "github>shamubernetes/renovate-config//fileMatch.json5"
   ]
 }
