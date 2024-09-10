@@ -102,6 +102,10 @@
       "addLabels": ["renovate/gh-r"]
     },
     {
+      "matchDatasources": ["mise"],
+      "addLabels": ["renovate/mise"]
+    },
+    {
       "matchManagers": ["github-actions"],
       "addLabels": ["renovate/ci"]
     },
