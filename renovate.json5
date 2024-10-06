@@ -1,41 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  extends: [
+    extends: [
     "group:monorepos",
     "group:recommended",
     "replacements:all",
     "workarounds:all",
   ],
-  "enabled": true,
-  "automergeStrategy": "merge-commit",
   "pin": {
     "automerge": true,
   },
   "digest": {
     "automerge": true,
   },
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
-  "timezone": "America/New_York",
-  "configMigration": true,
-  "onboarding": false,
-  "requireConfig": "ignored",
-  "dependencyDashboard": true,
-  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
-  "schedule": [
-    "after 8am",
-    "before 11pm"
-  ],
-  "automergeSchedule": [
-    "after 8am",
-    "before 11pm"
-  ],
-  "rebaseWhen": "conflicted",
-  "assigneesFromCodeOwners": true,
-  "suppressNotifications": [
-    "prEditedNotification",
-    "prIgnoreNotification"
-  ],
   "docker-compose": {
     "enabled": true
   },
@@ -48,9 +24,6 @@
   "vulnerabilityAlerts": {
     "enabled": true
   },
-  "ignoreTests": true,
-  "branchPrefix": "renovate/",
-  "semanticCommits": "enabled",
   "ignorePaths": [
     "**/node_modules/**",
     "**/bower_components/**",
