@@ -31,9 +31,9 @@
       pinDigests: false
     }
   ],
-  mise: {
-    enabled: false,
-  },
+  // mise: {
+  //   enabled: false,
+  // },
   ignorePaths: [
     "**/node_modules/**",
     "**/bower_components/**",
