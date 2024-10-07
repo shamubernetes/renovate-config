@@ -26,7 +26,8 @@
   },
   packageRules: [
     {
-      matchPackageNames: ["oci://*"],
+      matchDatasources: ["helmfile", "docker"],
+      matchDepNames: ["spegel"],
       pinDigests: false
     }
   ],
