@@ -13,15 +13,24 @@
         "packages:linters"
       ]
     },
+    // Auto-merge
     {
       "description": "Auto-merge GitHub Actions",
       "matchManagers": ["github-actions"],
       "automerge": true,
       "automergeType": "pr",
       "assigneesFromCodeOwners": false,
-      "matchUpdateTypes": ["minor", "patch", "digest", "pin"],
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest"],
       "ignoreTests": true,
     },
+    {
+      "description": "Auto-merge Pins",
+      "matchUpdateTypes": ["pin", "pinDigest"],
+      "automerge": true,
+      "automergeType": "pr",
+      "assigneesFromCodeOwners": false,
+      "ignoreTests": true,
+    }
     {
       "description": ["Auto-merge container minor updates for trusted containers"],
       "matchDatasources": ["docker"],
