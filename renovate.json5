@@ -5,6 +5,8 @@
     "group:recommended",
     "replacements:all",
     "workarounds:all",
+    "helpers:pinGitHubActionDigests",
+    "github>shamubernetes/renovate-config:commitmessages.json5",
   ],
   pin: {
     automerge: true,
@@ -24,16 +26,6 @@
   vulnerabilityAlerts: {
     enabled: true
   },
-  packageRules: [
-    {
-      matchDatasources: ["helmfile", "docker"],
-      matchDepNames: ["spegel"],
-      pinDigests: false
-    }
-  ],
-  // mise: {
-  //   enabled: false,
-  // },
   ignorePaths: [
     "**/node_modules/**",
     "**/bower_components/**",
