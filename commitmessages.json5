@@ -5,28 +5,14 @@
       "matchPackageNames": [
         "*"
       ],
-      "semanticCommitType": "chore"
+      "semanticCommitType": "❓"
     },
     {
       "matchDepTypes": [
         "dependencies",
         "require"
       ],
-      "semanticCommitType": "fix"
-    },
-    {
-      "matchDatasources": [
-        "maven"
-      ],
-      "matchDepTypes": [
-        "compile",
-        "provided",
-        "runtime",
-        "system",
-        "import",
-        "parent"
-      ],
-      "semanticCommitType": "fix"
+      "semanticCommitType": "🛠️"
     },
     {
       "matchUpdateTypes": ["major"],
@@ -53,6 +39,11 @@
       "commitMessageExtra": "( {{currentDigestShort}} → {{newDigestShort}} )",
       "commitMessageAction": ""
     },
+    {
+      "matchUpdateTypes": ["pin"],
+      "semanticCommitType": "📌",
+      "commitMessageAction": ""
+    }
     {
       "matchDatasources": ["docker"],
       "semanticCommitScope": "cont",
