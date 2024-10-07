@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Allow Docker Major",
+      "enabled": true,
+      "matchDatasources": ["docker"],
+      "matchUpdateTypes": ["major"]
+    },
+    {
+      "automerge": true,
+      "extends": [
+        "packages:linters"
+      ]
+    },
+    {
+      "description": "Auto-merge GitHub Actions",
+      "matchManagers": ["github-actions"],
+      "automerge": true,
+      "automergeType": "pr",
+      "assigneesFromCodeOwners": false,
+      "matchUpdateTypes": ["minor", "patch", "digest", "pin"],
+      "ignoreTests": true,
+    },
+    {
+      "description": ["Auto-merge container minor updates for trusted containers"],
+      "matchDatasources": ["docker"],
+      "automerge": true,
+      "automergeType": "pr",
+      "assigneesFromCodeOwners": false,
+      "matchUpdateTypes": ["patch", "digest", "minor"],
+      "matchPackagePatterns": ["ghcr.io/shamubernetes"],
+    },
+  ],
+}
