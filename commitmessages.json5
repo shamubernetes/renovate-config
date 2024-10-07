@@ -43,7 +43,7 @@
       "matchUpdateTypes": ["pin", "pinDigest"],
       "semanticCommitType": "📌",
       "commitMessageAction": ""
-    }
+    },
     {
       "matchDatasources": ["docker"],
       "semanticCommitScope": "cont",
