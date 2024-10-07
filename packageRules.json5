@@ -30,6 +30,7 @@
       "assigneesFromCodeOwners": false,
       "matchUpdateTypes": ["patch", "digest", "minor"],
       "matchPackagePatterns": ["ghcr.io/shamubernetes"],
+      ignoreTests: true,
     },
   ],
 }
