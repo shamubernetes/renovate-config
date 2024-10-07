@@ -40,7 +40,7 @@
       "commitMessageAction": ""
     },
     {
-      "matchUpdateTypes": ["pin"],
+      "matchUpdateTypes": ["pin", "pinDigest"],
       "semanticCommitType": "📌",
       "commitMessageAction": ""
     }
@@ -85,6 +85,9 @@
     },
     {
       "matchDatasources": ["mise"],
+      "semanticCommitScope": "mise",
+      "commitMessageTopic": "mise {{depName}}",
+      "commitMessageExtra": "( {{currentVersion}} → {{newVersion}} )",
       "addLabels": ["renovate/mise"]
     },
     {
