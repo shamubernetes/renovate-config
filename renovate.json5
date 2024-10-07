@@ -24,6 +24,9 @@
   "vulnerabilityAlerts": {
     "enabled": true
   },
+  "mise": {
+    enabled: false,
+  },
   "ignorePaths": [
     "**/node_modules/**",
     "**/bower_components/**",
