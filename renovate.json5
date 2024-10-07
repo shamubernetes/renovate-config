@@ -1,33 +1,39 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    extends: [
+  extends: [
     "group:monorepos",
     "group:recommended",
     "replacements:all",
     "workarounds:all",
   ],
-  "pin": {
-    "automerge": true,
+  pin: {
+    automerge: true,
   },
-  "digest": {
-    "automerge": true,
+  digest: {
+    automerge: true,
   },
   "docker-compose": {
-    "enabled": true
+    enabled: true
   },
-  "dockerfile": {
-    "enabled": true
+  dockerfile: {
+    enabled: true
   },
   "pre-commit": {
-    "enabled": true
+    enabled: true
   },
-  "vulnerabilityAlerts": {
-    "enabled": true
+  vulnerabilityAlerts: {
+    enabled: true
   },
-  "mise": {
+  packageRules: [
+    {
+      matchPackageNames: ["oci://*"],
+      pinDigests: false
+    }
+  ],
+  mise: {
     enabled: false,
   },
-  "ignorePaths": [
+  ignorePaths: [
     "**/node_modules/**",
     "**/bower_components/**",
     "**/vendor/**",
