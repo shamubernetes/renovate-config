@@ -26,6 +26,9 @@
   vulnerabilityAlerts: {
     enabled: true
   },
+  flux: {
+    enabled: true,
+  },
   ignorePaths: [
     "**/node_modules/**",
     "**/bower_components/**",
