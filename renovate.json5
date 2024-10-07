@@ -7,6 +7,7 @@
     "workarounds:all",
     "helpers:pinGitHubActionDigests",
     "github>shamubernetes/renovate-config:commitmessages.json5",
+    "github>shamubernetes/renovate-config:noPin.json5",
   ],
   pin: {
     automerge: true,
