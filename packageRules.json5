@@ -30,7 +30,7 @@
       "automergeType": "pr",
       "assigneesFromCodeOwners": false,
       "ignoreTests": true,
-    }
+    },
     {
       "description": ["Auto-merge container minor updates for trusted containers"],
       "matchDatasources": ["docker"],
