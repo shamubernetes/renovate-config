@@ -32,6 +32,7 @@
   flux: {
     enabled: true,
   },
+  prFooter: "",
   ignorePaths: [
     "**/node_modules/**",
     "**/bower_components/**",
