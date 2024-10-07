@@ -84,7 +84,7 @@
       "addLabels": ["renovate/gh-r"]
     },
     {
-      "matchDatasources": ["mise"],
+      "matchManagers": ["mise"],
       "semanticCommitScope": "mise",
       "commitMessageTopic": "mise {{depName}}",
       "commitMessageExtra": "( {{currentVersion}} → {{newVersion}} )",
