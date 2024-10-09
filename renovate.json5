@@ -11,6 +11,7 @@
     "github>shamubernetes/renovate-config:packageRules.json5",
     "github>shamubernetes/renovate-config:customManagers.json5",
   ],
+  rebaseWhen: "conflicted",
   pin: {
     automerge: true,
   },
