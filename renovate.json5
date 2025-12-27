@@ -1,50 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   extends: [
-    "group:monorepos",
-    "group:recommended",
-    "replacements:all",
-    "workarounds:all",
-    "helpers:pinGitHubActionDigests",
-    "github>shamubernetes/renovate-config:commitmessages.json5",
-    "github>shamubernetes/renovate-config:noPin.json5",
-    "github>shamubernetes/renovate-config:packageRules.json5",
-    "github>shamubernetes/renovate-config:customManagers.json5",
-  ],
-  rebaseWhen: "conflicted",
-  pin: {
-    automerge: true,
-  },
-  digest: {
-    automerge: true,
-  },
-  "docker-compose": {
-    enabled: true
-  },
-  dockerfile: {
-    enabled: true
-  },
-  "pre-commit": {
-    enabled: true
-  },
-  vulnerabilityAlerts: {
-    enabled: true
-  },
-  flux: {
-    enabled: true,
-  },
-  prFooter: "",
-  ignorePaths: [
-    "**/node_modules/**",
-    "**/bower_components/**",
-    "**/vendor/**",
-    "**/examples/**",
-    "**/__tests__/**",
-    "**/test/**",
-    "**/tests/**",
-    "**/__fixtures__/**",
-    "**/*.sops.*",
-    "**/.archive/**",
-    "**/resources/**"
   ],
 }
